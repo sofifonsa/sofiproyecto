@@ -210,12 +210,8 @@ main {
 
 /*!--------------------FOOTER---------------------*/
 
-footer{
+.container{
     background-color: rgb(249, 123, 34);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
 }
 
 footer h2{
