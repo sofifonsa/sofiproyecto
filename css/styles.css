@@ -509,8 +509,8 @@ footer h2{
 
 .lugares {
     display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
-    flex-wrap: wrap; /* Envuelve los elementos en filas si no caben */
+    justify-content: center; 
+    flex-wrap: wrap; 
 }
 
 .lugares div {
