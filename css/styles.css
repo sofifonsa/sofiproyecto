@@ -247,6 +247,14 @@ footer h2{
     text-align: center;
 }
 
+.Productos h3 {
+    color: rgb(3, 17, 1);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+
 .Productos div {
     display: flex;
     flex-direction: column;
@@ -262,7 +270,7 @@ footer h2{
 }
 
 .Productos div img {
-    width: 300px;
+    width: 250px;
     height: 300px;
     box-shadow: -2px -9px 36px 3px rgba (0,0,0,0.75);
 -webkit-box-shadow: -2px -9px 36px 3px rgba(0,0,0,0.75);
@@ -499,14 +507,29 @@ footer h2{
     text-align: center;
 }
 
-.lugares  div{
+.lugares {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-wrap: wrap; /* Envuelve los elementos en filas si no caben */
+}
+
+.lugares div {
     width: 350px;
     height: 450px;
     border: 2px solid rgb(2, 51, 2);
     text-align: center;
     margin: 10px;
-    display: inline-block;
 }
+
+.lugares div p {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(2, 51, 2);
+    text-align: center;
+    padding: 10px;
+}
+
 
 .losdestinos {
     display: flex;
