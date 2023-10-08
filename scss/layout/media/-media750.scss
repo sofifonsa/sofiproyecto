@@ -1,0 +1,22 @@
+@media screen and (max-width: 750px) {
+    footer h2{
+        font-size: 30px;
+    }
+    .grid-galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px;
+        grid-template-areas: 
+    "grid-item1" "grid-item2" 
+    "grid-item3" "grid-item4" 
+    "grid-item5" "grid-item6"
+    ;
+        h3{font-size: 14px;}
+        h2{font-size: 14px;}
+        p{font-size: 14px;}
+    }
+    header{
+        h1{
+            font-size: 60px;
+        }
+    }
+}
