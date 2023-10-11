@@ -1,0 +1,33 @@
+@mixin flexheader{
+    background-color: $color-pincipal;
+    position: sticky; 
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    z-index: 1;
+}
+
+@mixin headerh1{
+    color: nth($colores, 4);
+    font-size: 90px ;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+@mixin headerul{
+    list-style: none;
+    color:nth($colores, 4);
+    display: flex;
+}
+
+@mixin headerli{
+    margin: 10px;
+}
+
+@mixin headera{
+    text-decoration: none;
+    color: nth($colores, 1);
+}

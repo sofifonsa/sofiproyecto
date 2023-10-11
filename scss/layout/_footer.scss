@@ -1,10 +1,10 @@
 .container{
-    background-color: rgb(249, 123, 34);
+    background-color: $color-terciario;
 }
 
 footer{
     h2{
-        color: rgb(254, 232, 176);
+        color: $color-secundario;
     font-size: 40px;
     }
 }

@@ -1,30 +1,21 @@
 header{
-    background-color: rgb(124, 144, 112);
-    position: sticky; 
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    z-index: 1;
+        @include flexheader;
         h1{
-        color: rgb(3, 17, 1);
-    font-size: 90px ;
-    font-family: 'Tilt Prism', cursive;
-    font-weight: 400;
-    text-align: center;
-        }
+            @include headerh1;
+    }
         nav{
-            ul{list-style: none;
-                color:rgb(3, 17, 1) ;
-                display: flex;
+            ul{
+                @include headerul;
+            }
             li {
-                margin: 10px;
+                @include headerli;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.3);
+                }
             }
             a{
-                text-decoration: none;
-                color: black; 
+                @include headera
             }
             }
         }
-}
