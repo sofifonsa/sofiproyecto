@@ -1,4 +1,4 @@
-@import "./components/-variables";
+@import "./components/_variables";
 
 @import "./utilities/mixins";
 
@@ -10,18 +10,18 @@
 
 @import "./layout/footer";
 
-@import "./layout/media/media1440";
-@import "./layout/media/-media960";
-@import "./layout/media/-media945";
-@import "./layout/media/-media900";
-@import "./layout/media/media850";
-@import "./layout/media/-media750";
-@import "./layout/media/media710";
-@import "./layout/media/-media665";
-@import "./layout/media/media570";
-@import "./layout/media/-media492";
-@import "./layout/media/-media487";
-@import "./layout/media/-media480";
-@import "./layout/media/media320";
+@import "./layout/media/_media1440";
+@import "./layout/media/_media960";
+@import "./layout/media/_media945";
+@import "./layout/media/_media900";
+@import "./layout/media/_media850";
+@import "./layout/media/_media750";
+@import "./layout/media/_media710";
+@import "./layout/media/_media665";
+@import "./layout/media/_media570";
+@import "./layout/media/_media492";
+@import "./layout/media/_media487";
+@import "./layout/media/_media480";
+@import "./layout/media/_media320";
 
 
