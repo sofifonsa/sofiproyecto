@@ -8,3 +8,11 @@ footer{
     font-size: 40px;
     }
 }
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}

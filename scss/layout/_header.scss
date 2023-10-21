@@ -2,6 +2,7 @@ header{
         @include flexheader;
         h1{
             @include headerh1;
+            }
     }
         nav{
             ul{
@@ -17,6 +18,5 @@ header{
             }
             a{
                 @include headera
-            }
             }
         }
