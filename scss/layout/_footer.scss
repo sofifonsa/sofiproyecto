@@ -1,8 +1,5 @@
-.container{
-    background-color: $color-terciario;
-}
-
 footer{
+    background-color: $color-terciario;
     h2{
         color: $color-secundario;
     font-size: 40px;
@@ -15,4 +12,6 @@ footer
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    
 }
+

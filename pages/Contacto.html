@@ -7,15 +7,15 @@
     <meta name="author" content="Sofia Fonsalido">
     <meta name="copyright" content="GalwaY HomE">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>GY HE - Contacto </title>
     <link rel="shortcut icon" href="../img/irlanda.ico" type="image/x-icon">
 </head>
-
-
 <body>
     <header>
         <img src="../img/irlanda.png" alt="Logo de empresa"> 
-        <h1>GalwaY HomE</h1>
+        <h1 class="animate__animated animate__backInRight">GalwaY HomE</h1>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -26,10 +26,7 @@
             </ul>
         </nav>
     </header>
-
-
     <main>
-
         <section class="contactoDatos">
                 <div>
                     <label for="">País de Origen:</label>
@@ -40,7 +37,29 @@
                         <option value="">Colombia</option>
                         <option value="">Chile</option>
                         <option value="">Brasil</option>
-                    </select>
+                </select>
+    </section>
+            <section class="form-signin">
+                    <form>
+                    <img class="mb-4" src="../img/irlanda.ico" alt="ícono de empresa" width="72" height="57">
+                    <h1 class="h3 mb-3 fw-normal">Por favor, inicie sesión</h1>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Dirección de e-mail</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Contraseña</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Recuérdame
+                        </label>
+                    </div>
+                    <button class="btnsing" type="submit">Sign in</button>
+                    <p class="mt-5 mb-3 text-body-secondary">&copy;GalwaY HomE – 2023</p>
+                    </form>
             </section>
         <section class="contactoDondeencontrarnos">
             <div class="mapa">
@@ -53,13 +72,8 @@
             </h4>
             </div>
         </section>
-
     </main>
-
-
-
-    <div class="container">
-        <footer id="pie" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer id="pie" class="d-flex flex-wrap justify-content-between align-items-center">
             <div class="footer-contenedor">
                 <h2>GalwaY HomE - Encontranos en nuestras Redes Sociales</h2>
             </div>
@@ -69,6 +83,7 @@
                 <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img src="../img/whatsapp.png" alt=""></a>
             </div>
         </footer>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
